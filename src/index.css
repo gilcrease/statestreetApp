@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-weight: 500;
+}
+
+.account-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 75%
+}
+
+.filter-list {
+  background-color: #f1f0f0;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+}
+
+.filter-list ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.filter-list input {
+  margin: 5px;
+}
+
+.main-screen-transaction {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transaction-list-left h3{
+  padding-left: 10px;
+}
+
+.transacion-list-right {
+  margin-top: 20px;
+}
+
+.transaction-table-row td{
+  padding-right: 60px;
+}
+
+th {
+  text-align: left;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.history-details {
+  width: 75%;
+}
